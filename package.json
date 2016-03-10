@@ -1,0 +1,44 @@
+{
+  "name": "dockertutum",
+  "version": "1.0.0",
+  "description": "dockertutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deathwing121/docketTut.git"
+  },
+  "keywords": [
+    "docker",
+    "tutorial",
+    "node",
+    "angular"
+  ],
+  "author": "Martina Kraus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deathwing121/docketTut/issues"
+  },
+  "homepage": "https://github.com/Deathwing121/docketTut#readme",
+  "dependencies": {
+    "compression": "^1.5.2",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "karma": "^0.13.9",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.3.2",
+    "phantomjs": "^1.9.18"
+  },
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start --single-run"
+  }
+}

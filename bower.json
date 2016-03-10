@@ -1,0 +1,30 @@
+{
+  "name": "DockerTutum",
+  "version": "0.0.1",
+  "authors": [
+    "Martina Kraus <makraus@bihl-wiedemann.de>"
+  ],
+  "description": "docker tut",
+  "main": "index.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "node",
+    "docker"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-bootstrap": "~0.13.4",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5"
+  }
+}
