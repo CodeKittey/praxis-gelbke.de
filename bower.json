@@ -2,7 +2,7 @@
   "name": "DockerTutum",
   "version": "0.0.1",
   "authors": [
-    "Martina Kraus <makraus@bihl-wiedemann.de>"
+    "Martina Kraus <kraus.martina.m@gmail.com>"
   ],
   "description": "docker tut",
   "main": "index.js",

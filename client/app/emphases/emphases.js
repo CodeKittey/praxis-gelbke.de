@@ -1,5 +1,5 @@
 angular.module('app')
-  .config(['$stateProvider', function ($stateProvider) {
+.config(['$stateProvider', function ($stateProvider) {
     'use strict';
 
     $stateProvider.state('emphases', { // this is a name for our route

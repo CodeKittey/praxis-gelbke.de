@@ -1,40 +1,48 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de" dir="ltr">
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortcut icon" href="http://www.praxis-gelbke.de/sites/www.praxis-gelbke.de/files/gelbke_favicon.ico" type="image/x-icon" />
-<link rel="canonical" href="http://www.praxis-gelbke.de/" />
-<meta name="revisit-after" content="1 day" />
-    <!-- sites/www.praxis-gelbke.de/files/css/css_9be747bf5962a8c2f5b62703654dc973.css --><!-- http://www.praxis-gelbke.de/sites/www.praxis-gelbke.de/files/css/css_9be747bf5962a8c2f5b62703654dc973.css --><link type="text/css" rel="stylesheet" media="all" href="css/one.css" />
-<!-- sites/www.praxis-gelbke.de/files/css/css_a33e48721b3dc0cdcee905ebfe3d440f.css --><!-- http://www.praxis-gelbke.de/sites/www.praxis-gelbke.de/files/css/css_a33e48721b3dc0cdcee905ebfe3d440f.css --><link type="text/css" rel="stylesheet" media="screen" href="css/two.css" />
-<!-- sites/www.praxis-gelbke.de/files/css/css_00143d192a579918acf7cf5072c86997.css --><!-- http://www.praxis-gelbke.de/sites/www.praxis-gelbke.de/files/css/css_00143d192a579918acf7cf5072c86997.css --><link type="text/css" rel="stylesheet" media="print" href="css/three.css" />
-<style type='text/css'>body.tao { background-color: #888888; }</style>
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible", content="IE=edge,chrome=1">
+    <meta name="viewport", content="width=device-width, initial-scale=1.0">
+    <meta name="revisit-after" content="1 day" />
+    <link rel="shortcut icon" href="http://www.praxis-gelbke.de/sites/www.praxis-gelbke.de/files/gelbke_favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="http://www.praxis-gelbke.de/" />
+
+    <!-- deps -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link type="text/css" rel="stylesheet" media="all" href="css/one.css" />
+    <link type="text/css" rel="stylesheet" media="screen" href="css/two.css" />
+    <link type="text/css" rel="stylesheet" media="print" href="css/three.css" />
+    <style type='text/css'>body.tao { background-color: #888888; }</style>
     <!--[if lt IE 7]>
     <style type="text/css" media="all">#sidebar ul.menu a { height:1%; } #main,#utility,#sidebar,#branding div.primary ul.links a,#sidebar ul.menu a.active { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/sites/www.praxis-gelbke.de/themes/gelbke/images/mask.png'); } #main a,#utility a,#sidebar a,#branding div.primary ul.links a,#sidebar ul.menu a.active { position:relative; }</style>
     <![endif]-->
 
     <title>Zahnarzt Maxdorf - Zahnarztpraxis Dr. Jörg-Ulrich Gelbke</title>
+        <!-- enable html5mode routes -->
+    <base href="/">
   </head>
   <body ng-app="app" class="front not-logged-in page-node node-type-page no-sidebars tao fluid">
 
-  
-  
   <div id='root' class='clear-block'>
 
-  
   <div id='main'><div class='limiter'>
 
   <div id='branding' class='clear-block'>
-     <h1 class='site-name'><a href="/" class="active">Zahnarztpraxis Dr. Jörg-Ulrich Gelbke</a></h1>    <div class='primary'>
-      <ul class="links primary-links"><li class="menu-115 first"><a href="/%C3%BCber-uns" title="Über uns">Über uns</a></li>
-<li class="menu-118"><a href="/team" title="Team">Team</a></li>
-<li class="menu-713"><a href="/schwerpunkte" title="Schwerpunkte">Schwerpunkte</a></li>
-<li class="menu-822"><a href="/fotos-der-praxis" title="Fotos der Praxis">Fotos</a></li>
-<li class="menu-525"><a href="/%C3%B6ffnungszeiten" title="Öffnungszeiten">Öffnungszeiten</a></li>
-<li class="menu-123"><a href="/weg-zu-uns" title="Weg zu uns">Weg zu uns</a></li>
-<li class="menu-302 last"><a href="/kontakt" title="Kontakt">Kontakt</a></li>
-</ul>    </div>
+     <h1 class='site-name'><a href="/" class="active">Zahnarztpraxis Dr. Jörg-Ulrich Gelbke</a></h1>    
+     <div class='primary'>
+      <ul class="links primary-links">
+          <li ng-class="{active: $state.is('about')}" class="menu-115 first"><a href="about">Über uns</a></li>
+          <li ng-class="{active: $state.is('team')}" class="menu-118"><a href="team">Team</a></li>
+          <li ng-class="{active: $state.is('emphases')}" class="menu-713"><a href="emphases">Schwerpunkte</a></li>
+          <li ng-class="{active: $state.is('fotos')}" class="menu-822"><a href="fotos">Fotos</a></li>
+          <li ng-class="{active: $state.is('open')}" class="menu-525"><a href="open">Öffnungszeiten</a></li>
+          <li ng-class="{active: $state.is('way')}" class="menu-123"><a href="way">Weg zu uns</a></li>
+          <li ng-class="{active: $state.is('contact')}" class="menu-302 last"><a href="contact">Kontakt</a></li>
+      </ul>    
+    </div>
 
   </div>
 
@@ -90,9 +98,11 @@
   </div>
  
     <!-- deps -->
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/angular/angular.js"></script>
-    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
  
     <!-- app -->
     <script src="app/app.js"></script>
