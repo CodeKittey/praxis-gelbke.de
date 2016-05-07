@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Homepage for praxis-gelbke",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CodeKittey/praxis-gelbke.de.git"
@@ -18,27 +15,21 @@
   ],
   "author": "Martina Kraus",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Deathwing121/docketTut/issues"
-  },
-  "homepage": "https://github.com/Deathwing121/docketTut#readme",
+
   "dependencies": {
     "compression": "^1.5.2",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
     "morgan": "^1.6.1"
   },
-  
   "devDependencies": {
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-concat": "~0.2.0",
     "grunt-contrib-jshint": "~0.4.3",
     "grunt-contrib-uglify": "~0.2.0",
-    "grunt-testem": "~0.3.6",
+    "grunt-jenkins": "^0.6.0",
+    "grunt-plato": "~0.2.0",
     "grunt-qunit-cov": "~0.3.2",
-    "grunt-plato": "~0.2.0"
-  },
-  "scripts": {
-    "test": "node ./node_modules/karma/bin/karma start --single-run"
+    "grunt-testem": "~0.3.6"
   }
 }
