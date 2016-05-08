@@ -1,12 +1,19 @@
   <div  id='page'>
     <div class='page-header'>
-      <h2 class='page-title'>Weg zu uns</h2> 
+      <h2 class='page-title'>Weg zu uns</h2>
     </div>
     <div id='content' class='clear-block'>
       <div  id="node-9" class="node node-page node-page">
         <div class='node-content clear-block prose'>
-          <img src="img/g_logo.png" /></p>
-        </div>   
+          <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+			  <ui-gmap-window options="windowOptions"></ui-gmap-window>
+			  <ui-gmap-markers models="markers" coords="'self'" modelsbyref="false">
+				  <ui-gmap-windows show="show">
+                <div ng-non-bindable>"Test"</div>
+            </ui-gmap-windows>
+			  </ui-gmap-markers>
+		  </ui-gmap-google-map>
+        </div>
       </div>
     </div>
   </div>
