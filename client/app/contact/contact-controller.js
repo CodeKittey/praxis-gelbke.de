@@ -1,15 +1,4 @@
 angular.module('app')
-  .controller('contactCtrl', ['$scope', function ($scope) {
+  .controller('contactCtrl', ['$scope', function () {
     // here we define the items to be repeated in the template
-    $scope.list1 = [
-      {label: 'one'},
-      {label: 'two'},
-      {label: 'three'}
-    ];
-
-    $scope.list2 = [
-      {label: 'uno'},
-      {label: 'dos'},
-      {label: 'tres'}
-    ];
   }]);

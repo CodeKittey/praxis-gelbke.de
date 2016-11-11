@@ -6,5 +6,5 @@ angular.module('app')
       url: '/emphases', // the actual url path of the route
       templateUrl: 'app/emphases/emphases.html', // the template that will load
       controller: 'EmphasesCtrl' // the name of the controller to use
-    })
+    });
   }]);

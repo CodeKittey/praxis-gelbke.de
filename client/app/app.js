@@ -13,9 +13,9 @@ angular.module('app', [
     $urlRouterProvider.otherwise('/'); // if route not found redirect to /
 
 	uiGmapGoogleMapApiProvider.configure({
-	   key: 'AIzaSyBYuwhY_krrOdzbiyfOKjOkpwJ3atgNEnk',
-	   v: '3.20', //defaults to latest 3.X anyhow
-	   libraries: 'weather,geometry,visualization'
+     key: 'AIzaSyBYuwhY_krrOdzbiyfOKjOkpwJ3atgNEnk',
+     v: '3.20', //defaults to latest 3.X anyhow
+     libraries: 'weather,geometry,visualization'
    });
 
 
